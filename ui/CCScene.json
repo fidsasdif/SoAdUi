@@ -1,0 +1,13 @@
+{ 
+    "after-transition": {
+        "children": {
+            "move": [
+                {
+                    "node": "MenuLayer > bottom-menu > geode.loader/geode-button",
+                    "parent": "OptionsLayer"
+
+                }
+            ]
+        }
+    }
+}

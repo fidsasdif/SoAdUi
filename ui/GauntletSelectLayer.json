@@ -1,0 +1,32 @@
+{
+    "children": {
+        "node": {
+            "back-menu": {
+                "children": {
+                    "node": {
+                        "back-button": {
+                            "event": {
+                                "on-activate": {
+                                    "children": {
+                                        "new": [
+                                            {
+                                                "type": "CCMenuItemSpriteExtra",           
+                                                "id": "callback-node",
+                                                "attributes": {
+                                                    "callback": {
+                                                    "class": "MenuLayer",
+                                                    "method": "onMenuLayer"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

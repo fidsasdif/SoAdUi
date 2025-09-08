@@ -1,0 +1,527 @@
+{
+    "children": {
+        "move": [
+            {
+                    "node": "other-filter-menu > advanced-filters-button",
+                    "parent": "search-button-menu",
+                            "attributes": {
+                                "position": {
+                                    "anchor": "center",
+                                    "x": -420,
+                                    "y": -150
+                                },
+                                "scale": {
+                                    "x": 1,
+                                    "y": 1
+                                },
+                                "sprite": "rectangle3-button.png",
+                                "content-size": {
+                                    "width": 94,
+                                    "height": 34.75
+                                }
+                            },
+                            "children": {
+                                "new": [
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "advanced-label",
+                                        "attributes": {
+                                            "text": "Advanced",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": -1
+                                            },
+                                            "scale": {
+                                                "x": 1,
+                                                "y": 0.9
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+
+            },
+            {
+                    "node": "exit-menu > exit-button",
+                    "parent": "other-filter-menu",
+                    "attributes": {
+                        "position": {
+                            "anchor": "center",
+                            "x": -60,
+                            "y": 0.5
+                        },
+                        "sprite": "rectangle-button.png",
+                        "content-size": {
+                            "width": 116,
+                            "height": 21
+                        }
+                    },
+                    "children": {
+                        "new": [
+                            {
+                                "type": "CCLabelBMFont",
+                                "id": "exit-label",
+                                "attributes": {
+                                    "text": "To Main Menu",
+                                    "position": {
+                                        "anchor": "center",
+                                        "x": 0,
+                                        "y": -1
+                                    },
+                                    "scale": {
+                                        "x": 1,
+                                        "y": 0.9
+                                    }
+                                }
+                            }
+                        ]
+                    }
+            }
+        ],
+        "new": [
+                    {
+                        "type": "CCSprite",
+                        "id": "asdifbackground",  
+                        "attributes": {
+                            "sprite": "GJ_gradientBG-hd.png",
+                            "scale": {
+                                "fit": {
+                                    "relative": "screen"
+                                }
+                            },
+                            "z-order": -20,
+                            "content-size": {
+                                "width": 480,
+                                "height": 270
+                                },
+                            "position": {
+                                "anchor": "center"
+                                }
+                            }
+                        },
+                    {
+                        "type": "CCSprite",
+                        "id": "title-bg",
+                        "attributes": {
+                            "sprite": "gradient.png",
+                            "position": {
+                                "anchor": "top-left",
+                                "y": -40,
+                                "x": 235
+                            },
+                            "scale": {
+                                "x": 1.3,
+                                "y": 0.6
+                                }
+                            }
+                        } 
+                    ],
+        "node": {
+            "left-corner": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "right-corner": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "quick-search-title": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "filters-title": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "length-filter-menu": {
+                "attributes": {
+                    "position": {
+                        "anchor": "center",
+                        "x": 0,
+                        "y": 109
+                    },
+                    "scale": 0.9
+                },
+                "children": {
+                    "node": {
+                        "clock-icon": {
+                            "attributes": {
+                                "visible": false
+                            }
+                        }
+                    }
+                }
+            },
+            "length-filters-bg": {
+                "attributes": {
+                    "position": {
+                        "anchor": "center",
+                        "x": 44,
+                        "y": 10
+                    },
+                    "content-size": {
+                        "width": 274,
+                        "height": 30
+                    },
+                    "scale": 0.975
+                }
+            },
+            "difficulty-filter-menu": {
+                "attributes": {
+                    "position": {
+                        "anchor": "center",
+                        "x": -42,
+                        "y": 47
+                    },
+                    "scale": {
+                        "x": 0.7,
+                        "y": 0.7
+                    }
+                }
+            },
+            "difficulty-filters-bg": {
+                "attributes": {
+                    "position": {
+                        "anchor": "center",
+                        "x": 44,
+                        "y": 45
+                    },
+                    "content-size": {
+                        "width": 274,
+                        "height": 32
+                    },
+                    "scale": 0.975
+                }
+            },
+            "level-search-bg": {
+                "attributes": {
+                    "content-size": {
+                        "width": 365,
+                        "height": 106
+                    },
+                    "position": {
+                        "x": 284.5,
+                        "y": 203
+                    },
+                    "z-order": -3
+                }
+            },
+            "quick-search-bg": {
+                "attributes": {
+                    "position": {
+                        "anchor": "center",
+                        "x": 0,
+                        "y": -86
+                    },
+                    "content-size": {
+                        "width": 365,
+                        "height": 90
+                    }
+                }
+            },
+            "quick-search-menu": {
+                "attributes": {
+                    "position": {
+                        "anchor": "center",
+                        "x": 0,
+                        "y": -114
+                    }
+                },
+                "children": {
+                    "all": {
+                        "children": {
+                            "all": {
+                                "attributes": {
+                                    "sprite": "rectangle-button.png"
+                                },
+                                "children": {
+                                    "index": [
+                                        {
+                                                "type": "CCLabelBMFont",
+                                                "index": 0,
+                                                "attributes": {
+                                                    "position": {
+                                                        "anchor": "center",
+                                                        "x": 0,
+                                                        "y": 0
+                                                    },
+                                                    "scale": {
+                                                        "x": 0.5,
+                                                        "y": 0.45
+                                                    }
+                                                }
+                                        },
+                                        {
+                                                "type": "CCSprite",
+                                                "attributes": {
+                                                    "visible": false
+                                                }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "index": [
+                        {
+                                "type": "CCMenuItemSpriteExtra",
+                                "index": 0,
+                                "attributes": {
+                                    "position": {
+                                        "x": -119,
+                                        "y": 56
+                                    }
+                                }
+                        },
+                        {
+                                "type": "CCMenuItemSpriteExtra",
+                                "index": 1,
+                                "attributes": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 56
+                                    }
+                                }
+                        },
+                        {
+                                "type": "CCMenuItemSpriteExtra",
+                                "index": 2,
+                                "attributes": {
+                                    "position": {
+                                        "x": 119,
+                                        "y": 56
+                                    }
+                                }
+                        },
+                        {
+                                "type": "CCMenuItemSpriteExtra",
+                                "index": 6,
+                                "attributes": {
+                                    "position": {
+                                        "x": -119,
+                                        "y": 0
+                                    }
+                                }
+                        },
+                        {
+                                "type": "CCMenuItemSpriteExtra",
+                                "index": 7,
+                                "attributes": {
+                                    "position": {
+                                        "x": 0,
+                                        "y": 0
+                                    }
+                                }
+                        },
+                        {
+                                "type": "CCMenuItemSpriteExtra",
+                                "index": 8,
+                                "attributes": {
+                                    "position": {
+                                        "x": 119,
+                                        "y": 0
+                                    }
+                                }
+                        }
+                    ]
+                }
+            },
+            "other-filter-menu": {
+                "attributes": {
+                    "position": {
+                        "anchor": "center",
+                        "x": 150,
+                        "y": -25
+                    },
+                    "content-size": {
+                        "width": 300,
+                        "height": 37
+                    }
+                },
+                "children": {
+                    "node": {
+                        "clear-filters-button": {
+                            "attributes": {
+                                "position": {
+                                    "x": 14.5,
+                                    "y": 89
+                                },
+                                "sprite": "rectangle3-button.png",
+                                "content-size": {
+                                    "width": 94,
+                                    "height": 34.75
+                                },
+                                "scale": 1
+                            },
+                            "children": {
+                                "new": [
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "clear-filters-label",
+                                        "attributes": {
+                                            "text": "Clear Filters",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": -1
+                                            },
+                                            "scale": {
+                                                "x": 0.9,
+                                                "y": 0.8
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "lists-button": {
+                            "attributes": {
+                                "position": {
+                                    "anchor": "center",
+                                    "x": 60,
+                                    "y": 0
+                                },
+                                "sprite": "rectangle-button.png",
+                                "content-size": {
+                                    "width": 116,
+                                    "height": 21
+                                }
+                            },
+                            "children": {
+                                "all": {
+                                    "attributes": {
+                                        "scale": 1
+                                    }
+                                },
+                                "new": [
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "lists-label",
+                                        "attributes": {
+                                            "text": "To Lists",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": -1
+                                            },
+                                            "scale": {
+                                                "x": 1,
+                                                "y": 0.9
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "search-button-menu": {
+                "children": {
+                    "node": {
+                        "clear-search-button": {
+                            "attributes": {
+                                "visible": false
+                            }
+                        },
+                        "search-level-button": {
+                            "attributes": {
+                                "content-size": {
+                                    "width": 94,
+                                    "height": 34.75
+                                },
+                                "scale": 0.75,
+                                "position": {
+                                    "x": 67,
+                                    "y": 78
+                                },
+                                "sprite": "rectangle3-button.png",
+                                "base-scale": 0.75
+                            },
+                            "children": {
+                                "new": [
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "level-search-label",
+                                        "attributes": {
+                                            "text": "Levels",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": -1
+                                            },
+                                            "scale": {
+                                                "x": 1.4,
+                                                "y": 1.25
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "search-user-button": {
+                            "attributes": {
+                                "content-size": {
+                                    "width": 94,
+                                    "height": 34.75
+                                },
+                                "scale": 0.75,
+                                "position": {
+                                    "x": 142,
+                                    "y": 78
+                                },
+                                "sprite": "rectangle3-button.png",
+                                "base-scale": 0.75
+                            },
+                            "children": {
+                                "new": [
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "user-search-label",
+                                        "attributes": {
+                                            "text": "Users",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": -1
+                                            },
+                                            "scale": {
+                                                "x": 1.4,
+                                                "y": 1.25
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "level-search-bar-bg": {
+                "attributes": {
+                    "content-size": {
+                        "width": 205,
+                        "height": 25
+                    },
+                    "position": {
+                        "x": 209,
+                        "y": 238
+                    }
+                }
+            },
+            "search-bar": {
+                "attributes": {
+                    "position": {
+                        "x": 111,
+                        "y": 238
+                    }
+                }
+            }
+        }
+    }
+}

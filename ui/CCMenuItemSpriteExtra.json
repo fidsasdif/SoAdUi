@@ -1,0 +1,107 @@
+{
+    "after-transition": {
+        "if": [
+                {
+            "statement": "int(node_z_order) == 3",
+            "attributes": {
+                "z-order": 2
+            }
+                },
+                {
+            "statement": "int(node_z_order) == -3",
+            "attributes": {
+                "z-order": 2
+            }
+                }
+            ]
+    },
+    "schedule": {
+        "delay": 0.75,
+        "if": [
+                {
+            "statement": "int(node_z_order) == 2",
+                "attributes": {
+                    "z-order": 3
+                },
+                "event": {
+                    "on-hover": {
+                        "override": true,
+                        "attributes": {
+                            "sound": "SA_Button_Sound.ogg",
+                            "sprite": "rectangle-button-selected.png"
+                        }
+                    },
+                    "on-exit": {
+                        "attributes": {
+                            "sprite": "rectangle-button.png"
+                        }
+                    },
+                    "on-click": {
+                        "override": true,
+                        "attributes": {
+                            "sprite": "rectangle-button-press.png",
+                            "actions": [
+                                {
+                                    "type": "Stop"
+                                }
+                            ]
+                        }
+                    },
+                    "on-release": {
+                        "attributes": {
+                            "sprite": "rectangle-button.png"
+                        }
+                    },
+                    "on-activate": {
+                        "attributes": {
+                            "sprite": "rectangle-button-press.png"
+                            }
+                        }
+                    }
+                }
+            ],
+            "if": [
+            {
+                "statement": "int(node_z_order) == -2",
+                    "attributes": {
+                        "z-order": -3
+                },
+                "event": {
+                    "on-hover": {
+                        "override": true,
+                        "attributes": {
+                            "sound": "SA_Button_Sound.ogg",
+                            "sprite": "round-button-selected-uhd.png"
+                        }
+                    },
+                    "on-exit": {
+                        "attributes": {
+                            "sprite": "round-button-uhd.png"
+                        }
+                    },
+                    "on-click": {
+                        "override": true,
+                        "attributes": {
+                            "sprite": "round-button-press-uhd.png",
+                            "actions": [
+                                {
+                                    "type": "Stop"
+                                }
+                            ]
+                        }
+                    },
+                    "on-release": {
+                        "attributes": {
+                            "sprite": "round-button-uhd.png"
+                        }
+                    },
+                    "on-activate": {
+                        "attributes": {
+                            "sprite": "round-button-press-uhd.png"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    }

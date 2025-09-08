@@ -1,0 +1,75 @@
+{
+    "children": {
+        "new": [
+                    {
+                        "type": "CCSprite",
+                        "id": "asdifbackground",  
+                        "attributes": {
+                            "sprite": "GJ_gradientBG-hd.png",
+                            "scale": {
+                                "fit": {
+                                    "relative": "screen"
+                                }
+                            },
+                            "z-order": -3,
+                            "content-size": {
+                                "width": 480,
+                                "height": 270
+                                },
+                            "position": {
+                                "anchor": "center"
+                                }
+                            }
+                        } 
+                    ],        
+        "node": {
+            "delete-menu": {
+                "children": {
+                    "all": {
+                        "attributes": {
+                            "visible": false   
+                        }
+                    }
+                }
+            },
+            "select-all-text": {
+                "attributes": {
+                    "visible": false
+                }
+            },            
+            "background": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "left-corner": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "right-corner": {
+                "attributes": {
+                    "visible": false
+                }
+            }
+        },
+        "query": {
+            "GJListLayer > list-view > [TableView] > [CCContentLayer]": {
+                "children": {
+                    "all": {
+                        "children": {
+                            "index": [
+                                {
+                                    "type": "CCLayerColor",
+                                    "attributes": {
+                                        "visible":false
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

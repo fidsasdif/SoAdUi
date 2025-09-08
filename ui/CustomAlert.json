@@ -1,0 +1,110 @@
+{
+    "attributes": {
+        "visible": true
+        },
+    "children": {
+        "index": [
+            {
+            "type": "CCLayer",
+                "children": {
+                    "index": [
+                        {
+                        "type": "CCMenu",
+                            "children": {
+                                "all": {
+                                    "if": [
+                                        {
+                                            "statement": "int(node_z_order) == -2",
+                                            "event": {
+                                                "on-hover": {
+                                                    "attributes": {
+                                                        "sound": "SA_Button_Sound.ogg",
+                                                        "sprite": "round-button-selected-uhd.png"
+                                                    }
+                                                },
+                                                "on-exit": {
+                                                    "attributes": {
+                                                        "sprite": "round-button-uhd.png"
+                                                    }
+                                                },
+                                                "on-click": {
+                                                    "attributes": {
+                                                        "sprite": "round-button-press-uhd.png"
+                                                    }
+                                                },
+                                                "on-release": {
+                                                    "attributes": {
+                                                        "sprite": "round-button-uhd.png"
+                                                    }
+                                                },
+                                                "on-activate": {
+                                                    "attributes": {
+                                                        "sprite": "round-button-press-uhd.png"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "event": {
+                                        "on-activate": {
+                                            "override": false,
+                                            "root": {
+                                                "children": {
+                                                    "index": [
+                                                        {
+                                                                "type": "CustomAlert",
+                                                                "attributes": {
+                                                                    "show": false
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "schedule": {
+                                            "delay": 0.5,
+                                    "if": [
+                                        {
+                                            "statement": "int(node_z_order) == -3",
+                                            "event": {
+                                                "on-hover": {
+                                                    "attributes": {
+                                                        "sound": "SA_Button_Sound.ogg",
+                                                        "sprite": "round-button-selected-uhd.png"
+                                                    }
+                                                },
+                                                "on-exit": {
+                                                    "attributes": {
+                                                        "sprite": "round-button-uhd.png"
+                                                    }
+                                                },
+                                                "on-click": {
+                                                    "attributes": {
+                                                        "sprite": "round-button-press-uhd.png"
+                                                    }
+                                                },
+                                                "on-release": {
+                                                    "attributes": {
+                                                        "sprite": "round-button-uhd.png"
+                                                    }
+                                                },
+                                                "on-activate": {
+                                                    "attributes": {
+                                                        "sprite": "round-button-press-uhd.png"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                        }
+                                    }
+                                }
+                            }
+                            ]
+                        }
+                            }
+                        ]
+                    }
+                }
+

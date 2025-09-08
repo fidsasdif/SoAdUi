@@ -1,0 +1,26 @@
+{
+    "children": {
+        "new": [
+                    {
+                        "type": "CCSprite",
+                        "id": "asdifbackground",  
+                        "attributes": {
+                            "sprite": "GJ_gradientBG-hd.png",
+                            "scale": {
+                                "fit": {
+                                    "relative": "screen"
+                                }
+                            },
+                            "z-order": -3,
+                            "content-size": {
+                                "width": 480,
+                                "height": 270
+                                },
+                            "position": {
+                                "anchor": "center"
+                                }
+                            }
+                        } 
+                    ]
+                }
+            }

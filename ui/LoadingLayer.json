@@ -1,0 +1,134 @@
+{
+    "children": {
+        "node": {
+            "bg-texture": {
+                "attributes": {
+                    "sprite": "GJ_gradientBG.png",
+                    "color": {"r": 255, "g": 255, "b":255},
+                    "z-order": -5
+                }
+            },
+            "gd-logo": {
+                "attributes": {
+                    "sprite": "modtitle.png",
+                    "scale": 1.5,
+                    "position": { 
+                        "anchor": "center",
+                        "x": 0,
+                        "y": 0
+                    }
+                }
+            },
+            "robtop-logo": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "progress-slider": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "cocos2d-logo": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "fmod-logo": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "geode-small-label": {
+                "attributes": {
+                    "position": {
+                        "x": 284.5,
+                        "y": 70
+                    }
+                }
+            },
+            "geode-small-label2": {
+                "attributes": {
+                    "position": {
+                        "x": 284.5,
+                        "y": 60
+                    }
+                }
+            },
+            "text-area": {
+                "attributes": {
+                    "position": {
+                        "x": 284.5,
+                        "y": 100
+                    }
+                },
+                "children": {
+                    "new": [
+                        {
+                        "type": "CCSprite",
+                        "id": "black",  
+                        "attributes": {
+                            "sprite": "black.png",
+                            "opacity": 100,
+                            "z-order": -1,
+                            "content-size": {
+                                "width": 480,
+                                "height": 270
+                                },
+                            "scale": {
+                                "x": 2,
+                                "y": 0.4
+                            },
+                            "position": {
+                                "anchor": "center",
+                                "x": 0,
+                                "y": -22
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "new": [
+            {
+            "type": "CCSprite",
+            "id": "scan-lines",  
+            "attributes": {
+                "sprite": "scan-lines.png",
+                "scale": {
+                    "fit": {
+                        "relative": "screen"
+                        }
+                    },
+                "opacity": 9,
+                "z-order": -2,
+                "content-size": {
+                    "width": 480,
+                    "height": 270
+                    },
+                "position": {
+                    "anchor": "center"
+                    }
+                }
+            },
+            {
+            "type": "CCSprite",
+            "id": "asdif",
+            "attributes": {
+                "sprite": "asdifsmall.png",
+                "content-size": {
+                    "width": 256,
+                    "height": 256
+                },
+                "scale": 1,
+                "position": {
+                    "anchor": "center",
+                    "x": 100,
+                    "y": 180
+                }
+            }
+            }
+        ]
+    }
+}

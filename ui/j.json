@@ -1,0 +1,127 @@
+{
+    "children": {
+        "all": {
+            "attributes": {
+                "visible": false
+            }
+        },
+        "new": [
+                    {
+                        "type": "CCSprite",
+                        "id": "asdifbackground",  
+                        "attributes": {
+                            "sprite": "GJ_gradientBG-hd.png",
+                            "scale": {
+                                "fit": {
+                                    "relative": "screen"
+                                }
+                            },
+                            "z-order": -3,
+                            "content-size": {
+                                "width": 480,
+                                "height": 270
+                                },
+                            "position": {
+                                "anchor": "center"
+                                }
+                            }
+                        } 
+                    ],
+        "node": {
+            "exit-menu": {
+                "after-transition": {
+                    "attributes": {
+                        "visible": true,
+                        "position": {
+                            "anchor": "center",
+                            "x": 0,
+                            "y": 0
+                        }
+                    },
+                    "children": {
+                        "all": {
+                            "attributes": {
+                                "sprite": "rectangle-button.png",
+                                "position": {
+                                    "anchor": "center",
+                                    "x": 0,
+                                    "y": 0
+                                },
+                                "scale": 3,
+                                "z-order": 2
+                            },
+                            "children": {
+                                "new": [
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "account-label",
+                                        "attributes": {
+                                            "text": "Some cats do not have a fur. They existed to be maintained by the people",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": 5
+                                            },
+                                            "scale": {
+                                                "x": 0.225,
+                                                "y": 0.2
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "account-label1",
+                                        "attributes": {
+                                            "text": "of the earth daily until the heart gave out. Why they were created will be",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": 1
+                                            },
+                                            "scale": {
+                                                "x": 0.225,
+                                                "y": 0.2
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "account-label2",
+                                        "attributes": {
+                                            "text": "a mystery to all except those eyes lucky enough to have read this account.",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": -3
+                                            },
+                                            "scale": {
+                                                "x": 0.225,
+                                                "y": 0.2
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "account-label3",
+                                        "attributes": {
+                                            "text": "You will visit the market that bird and livestock are sold without hairs.",
+                                            "position": {
+                                                "anchor": "center",
+                                                "x": 0,
+                                                "y": -7
+                                            },
+                                            "scale": {
+                                                "x": 0.225,
+                                                "y": 0.2
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

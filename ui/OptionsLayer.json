@@ -1,0 +1,282 @@
+{
+    "children": {
+        "node": {
+            "main-layer": {
+                "children": {
+                    "node": {
+                        "chain-left": {
+                            "attributes": {
+                                "visible": false
+                                }
+                            },
+                        "chain-right": {
+                            "attributes": {
+                                "visible": false
+                                }
+                            } ,
+                        "background": {
+                            "attributes": {
+                                "color": {
+                                    "r": 75,
+                                    "g": 59,
+                                    "b": 200
+                                },
+                                "opacity": 125,
+                                "content-size": {
+                                    "width": 370,
+                                    "height": 260
+                                }
+                            },
+                            "children": {
+                                "index": [
+                                    {
+                                        "index": 0,
+                                        "type": "CCSprite",
+                                        "attributes": {
+                                            "visible": false
+                                            } 
+                                        },
+                                    {
+                                        "index": 1,
+                                        "type": "CCSprite",
+                                        "attributes": {
+                                            "visible": false
+                                            } 
+                                        },
+                                    {
+                                        "index": 2,
+                                        "type": "CCSprite",
+                                        "attributes": {
+                                            "visible": false
+                                            } 
+                                        },
+                                    {
+                                        "index": 3,
+                                        "type": "CCSprite",
+                                        "attributes": {
+                                            "visible": false
+                                            } 
+                                        }
+                                    ]
+                                }
+                            },
+                        "options-menu": {
+                            "children": {
+                                "index": [
+                                    {
+                                        "index": 0,
+                                        "type": "CCMenuItemSpriteExtra",
+                                        "children": {
+                                            "query": {
+                                                "[ButtonSprite] [CCScale9Sprite]": {
+                                                    "attributes": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "new": [
+                                                {
+                                                    "type": "CCSprite",
+                                                    "id": "account-bg",
+                                                    "attributes": {
+                                                        "sprite": "purple2-button.png",
+                                                        "position": {
+                                                            "anchor": "center"
+                                                        },
+                                                        "z-order": -3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "index": 1,
+                                        "type": "CCMenuItemSpriteExtra",
+                                        "children": {
+                                            "query": {
+                                                "[ButtonSprite] [CCScale9Sprite]": {
+                                                    "attributes": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "new": [
+                                                {
+                                                    "type": "CCSprite",
+                                                    "id": "howtoplay-bg",
+                                                    "attributes": {
+                                                        "sprite": "purple2-button.png",
+                                                        "position": {
+                                                            "anchor": "center"
+                                                        },
+                                                        "z-order": -3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "index": 2,
+                                        "type": "CCMenuItemSpriteExtra",
+                                        "children": {
+                                            "query": {
+                                                "[ButtonSprite] [CCScale9Sprite]": {
+                                                    "attributes": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "new": [
+                                                {
+                                                    "type": "CCSprite",
+                                                    "id": "options-bg",
+                                                    "attributes": {
+                                                        "sprite": "purple2-button.png",
+                                                        "position": {
+                                                            "anchor": "center"
+                                                        },
+                                                        "z-order": -3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "index": 3,
+                                        "type": "CCMenuItemSpriteExtra",
+                                        "children": {
+                                            "query": {
+                                                "[ButtonSprite] [CCScale9Sprite]": {
+                                                    "attributes": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "new": [
+                                                {
+                                                    "type": "CCSprite",
+                                                    "id": "graphics-bg",
+                                                    "attributes": {
+                                                        "sprite": "purple2-button.png",
+                                                        "position": {
+                                                            "anchor": "center"
+                                                        },
+                                                        "z-order": -3
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "index": 4,
+                                        "type": "CCMenuItemSpriteExtra",
+                                        "children": {
+                                            "query": {
+                                                "[ButtonSprite] [CCScale9Sprite]": {
+                                                    "attributes": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "new": [
+                                                {
+                                                    "type": "CCSprite",
+                                                    "id": "rate-bg",
+                                                    "attributes": {
+                                                        "sprite": "purple-button.png",
+                                                        "position": {
+                                                            "anchor": "center"
+                                                        },
+                                                        "z-order": -4
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "index": 5,
+                                        "type": "CCMenuItemSpriteExtra",
+                                        "children": {
+                                            "query": {
+                                                "[ButtonSprite] [CCScale9Sprite]": {
+                                                    "attributes": {
+                                                        "visible": false
+                                                    }
+                                                }
+                                            },
+                                            "new": [
+                                                {
+                                                    "type": "CCSprite",
+                                                    "id": "songs-bg",
+                                                    "attributes": {
+                                                        "sprite": "purple-button.png",
+                                                        "position": {
+                                                            "anchor": "center"
+                                                        },
+                                                        "z-order": -4
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                                },
+                                                {
+                                                    "index": 6,
+                                                    "type": "CCMenuItemSpriteExtra",
+                                                    "children": {
+                                                        "query": {
+                                                            "[ButtonSprite] [CCScale9Sprite]": {
+                                                                "attributes": {
+                                                                    "visible": false
+                                                                }
+                                                            }
+                                                        },
+                                                        "new": [
+                                                            {
+                                                            "type": "CCSprite",
+                                                            "id": "help-bg",
+                                                            "attributes": {
+                                                                "sprite": "purple-button.png",
+                                                                "position": {
+                                                                    "anchor": "center"
+                                                                },
+                                                                "z-order": -4
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ],
+                                            "all": {
+                                                "children": {
+                                                    "index": [
+                                                        {
+                                                            "type": "ButtonSprite",
+                                                            "children": {
+                                                                "index": [
+                                                                    {
+                                                                        "type": "CCLabelBMFont",
+                                                                        "attributes": {
+                                                                            "font": "chatFont-uhd.fnt",
+                                                                            "scale": {
+                                                                                "x": 1.75,
+                                                                                "y": 1.6
+                                                                            },
+                                                                            "position": {
+                                                                                "anchor":"center"
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                    }
+                }
+            }
+        }
+    }
+}
